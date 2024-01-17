@@ -1,4 +1,12 @@
-body{background-color: rgb(197, 172, 221);}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+
+    body{background-color: rgb(197, 172, 221);font-family: 'Lemon', serif;}
+
+
+
 
 img{
 
@@ -11,3 +19,63 @@ h1{border:4px solid black;
     padding-top: 10px;}
 
     
+ul li {
+    list-style-type: disc;
+    font: size 20px;
+}
+
+
+.flex-item{
+    width:23%;
+    height:300px;
+    border-radius: 30px;
+    margin-bottom:40px;
+    background-position: center;
+    background-size:cover ;
+    box-shadow:10px 10px  50px rgb(179, 175, 175) ;
+}
+.flex-item p{
+    background-color: black;
+    color:#f0e4e4;
+    text-align: center;
+}
+
+.parent-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+.gallery-header{
+    text-align: center;
+    font-size: 70px;
+}
+
+.first{
+    background-image: url("https://img.huffingtonpost.com/asset/621550be2700003752458c1f.jpeg?ops=scalefit_960_noupscale");
+}
+
+.second{
+    background-image: url("https://img.taste.com.au/jNhw2gJK/taste/2018/08/this-is-how-to-help-the-strawberry-farmers-140532-4.jpg");
+}
+.third{
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/2/2021/11/Croquembouche-profiterole-tower-ceb1da8.jpg?quality=90&resize=556,505");
+}
+
+.fourth{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/easy-no-bake-desserts-645d1b63913ee.jpg?crop=0.501xw:1.00xh;0.119xw,0&resize=640:*");
+}
+.fifth{
+    background-image: url("https://img.delicious.com.au/9h4Hh_Tq/del/2015/12/mangomisu-mango-tiramisu-24719-2.jpg");
+}
+.sixth{
+    background-image: url("https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dessert-main-image-molten-cake-0fbd4f2.jpg?quality=90&resize=500,454");
+}
+.seventh{
+    background-image: url("https://hips.hearstapps.com/hmg-prod/images/strawberry-pop-tart-blondies-vertical-644304b12b4e1.jpg");
+}
+
+.eighth{
+    background-image: url("https://www.southernliving.com/thmb/pJgdCTY_0M64fOSH2HbnHkh2pcw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SLSEO_11202019_0032_Red-Velvet-Cake-Balls-2000-964885010bb340ddaa7eca5494a18bda.jpg");
+
+}
